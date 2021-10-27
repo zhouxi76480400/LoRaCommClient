@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_dark"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_activity_card_view_horizontal_margin"
+        android:layout_marginRight="@dimen/login_activity_card_view_horizontal_margin"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/login_activity_card_view_corner_radius"
+        app:cardElevation="@dimen/login_activity_card_view_elevation">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/login_activity_card_view_padding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_login"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/login_activity_card_view_title_text_size"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/transparent"
+                        android:hint="@string/txt_input_user_name"
+                        android:maxLength="@integer/user_name_length"
+                        android:textSize="@dimen/login_activity_card_view_input_text_size" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_margin="@dimen/login_activity_card_view_button_margin"
+                    android:text="@android:string/ok"
+                    android:textSize="@dimen/login_activity_card_view_button_text_size" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

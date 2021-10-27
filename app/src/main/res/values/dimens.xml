@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="user_name_length">16</integer>
+
+    <dimen name="login_activity_card_view_horizontal_margin">16dp</dimen>
+    <dimen name="login_activity_card_view_corner_radius">8dp</dimen>
+    <dimen name="login_activity_card_view_elevation">16dp</dimen>
+    <dimen name="login_activity_card_view_padding">16dp</dimen>
+    <dimen name="login_activity_card_view_title_text_size">32sp</dimen>
+    <dimen name="login_activity_card_view_input_text_size">18sp</dimen>
+    <dimen name="login_activity_card_view_button_margin">8dp</dimen>
+    <dimen name="login_activity_card_view_button_text_size">16sp</dimen>
+
+
+</resources>

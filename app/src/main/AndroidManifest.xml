@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.enes.loracommclient">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_baseline_wifi_tethering"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_baseline_wifi_tethering"
+        android:supportsRtl="true"
+        android:name=".common.MyApplication"
+        android:theme="@style/Theme.LoRaCommClient">
+        <activity
+            android:name=".activities.ModeSelectActivity"
+            android:configChanges="orientation"
+            android:theme="@style/Theme.Transparent"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.LoginActivity"
+            android:theme="@style/Theme.Login"
+            android:configChanges="orientation"
+            />
+
+
+
+    </application>
+
+</manifest>

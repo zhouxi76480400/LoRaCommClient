@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LoRaCommClient</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_input_user_name">Enter your name</string>
+    <string name="txt_no_text">Please input your name first.</string>
+
+</resources>
