@@ -60,7 +60,6 @@
                     android:text="@android:string/ok"
                     android:textSize="@dimen/login_activity_card_view_button_text_size" />
 
-
             </LinearLayout>
 
 

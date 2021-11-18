@@ -11,6 +11,7 @@
     <dimen name="login_activity_card_view_input_text_size">18sp</dimen>
     <dimen name="login_activity_card_view_button_margin">8dp</dimen>
     <dimen name="login_activity_card_view_button_text_size">16sp</dimen>
+    <dimen name="adapter_message_item_height">96dp</dimen>
 
 
 </resources>

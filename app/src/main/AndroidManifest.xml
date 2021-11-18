@@ -33,6 +33,8 @@
             android:name=".activities.MainActivity"
             android:configChanges="orientation" />
 
+        <activity android:name=".activities.MessageActivity"
+            android:configChanges="orientation"/>
 
     </application>
 
